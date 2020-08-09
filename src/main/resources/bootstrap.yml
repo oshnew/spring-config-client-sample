@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:15990
+
+management:
+  endpoints:
+    web:
+      base-path: /system/actuator #잘 알려진 URL 및 포트 등의 정보는 변경하는게 좋음
+      exposure:
+        include: "refresh" #spring cloud config의 refresh를 위해 허용

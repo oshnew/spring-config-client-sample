@@ -1,0 +1,25 @@
+#Project Info
+info:
+  app:
+    name: Config Client Sample
+    description: Config Client Sample
+    version: 0.0.1
+
+server:
+  port: 15995
+  tomcat:
+    max-threads: 500
+    protocol-header: X-Forwarded-Proto
+    connection-timeout: 10s
+
+spring:
+  application:
+    name: "app-1"
+  http:
+    encoding:
+      enabled: true
+      charset: utf-8
+      force: true
+    mvc:
+      servlet:
+        load-on-startup: 1
