@@ -8,18 +8,21 @@ info:
 server:
   port: 15995
   tomcat:
-    max-threads: 500
-    protocol-header: X-Forwarded-Proto
     connection-timeout: 10s
+    threads:
+      max: 500
+    remoteip:
+      protocol-header: X-Forwarded-Proto
+  servlet:
+    encoding:
+      enabled: true
+      charset: utf-8
+      force: true
 
 spring:
   application:
     name: "app-1"
   http:
-    encoding:
-      enabled: true
-      charset: utf-8
-      force: true
     mvc:
       servlet:
         load-on-startup: 1
