@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.biz</groupId>
-    <artifactId>msa</artifactId>
+    <artifactId>spring-config-client-sample</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-config-client-sample</name>
     <description>Spring Cloud Config Server Client sample</description>

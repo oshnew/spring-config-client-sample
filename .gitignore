@@ -29,7 +29,3 @@ mvnw.cmd
 /nbdist/
 /.nb-gradle/
 /.idea/
-!/.idea/
-!/config-server.iml
-!/config-server.iml
-!/msa.iml
